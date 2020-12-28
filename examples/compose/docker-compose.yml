@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   db:
-    image: mariadb:10.4
+    image: tobi312/rpi-mariadb:10.4-alpine
     container_name: librenms_db
     command:
       - "mysqld"
